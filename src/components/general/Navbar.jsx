@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import logo from '../assets/logo.png'
+import logo from '../../assets/logo.png'
 import { RxHamburgerMenu } from 'react-icons/rx'
 import { AiOutlineClose } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
@@ -14,7 +14,7 @@ const Navbar = () => {
         setHam(!ham)
     }
   return (
-    <div className="fixed flex flex-col bg-black items-center justify-between w-full">
+    <div className="fixed flex flex-col bg-black items-center z-50 justify-between w-full">
         <div className="flex items-center justify-between px-6 bg-white h-[75px] w-full md:h-[80px] md:px-14 lg:px-16 
         xl:h-[110px] xl:px-24">
           <img className='w-24 md:w-28 lg:w-36 xl:w-44'
