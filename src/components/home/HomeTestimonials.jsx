@@ -28,7 +28,7 @@ const HomeTestimonials = () => {
        <SwiperSlide>
           <div className="relative flex flex-col items-center justify-center w-full md:flex-row-reverse">
             <div className="flex items-center justify-center w-full h-full px-6">
-              <img className='absolute top-16 w-40 h-40 z-10 rounded-full border-[0.1em] border-[#FD602A] object-cover md:rounded-none md:border-none md:h-[23rem] md:w-[50%]
+              <img className='absolute top-16 w-40 h-40 z-10 rounded-full border-[0.1em] border-[#FD602A] object-cover md:rounded-none md:object-fill md:border-none md:h-[23rem] md:w-[50%]
               md:top-0 lg:h-[28rem] xl:h-[38rem]'
               src={img2} alt="testimonials image" />
             </div>
@@ -50,7 +50,7 @@ const HomeTestimonials = () => {
        <SwiperSlide>
           <div className="relative flex flex-col items-center justify-center w-full md:flex-row-reverse">
             <div className="flex items-center justify-center w-full h-full px-6">
-              <img className='absolute top-16 w-40 h-40 z-10 rounded-full border-[0.1em] border-[#FD602A] object-cover md:rounded-none md:border-none md:h-[23rem] md:w-[50%]
+              <img className='absolute top-16 w-40 h-40 z-10 rounded-full border-[0.1em] border-[#FD602A] object-cover md:object-fill md:rounded-none md:border-none md:h-[23rem] md:w-[50%]
               md:top-0 lg:h-[28rem] xl:h-[38rem]'
               src={img3} alt="testimonials image" />
             </div>
@@ -72,7 +72,7 @@ const HomeTestimonials = () => {
        <SwiperSlide>
           <div className="relative flex flex-col items-center justify-center w-full md:flex-row-reverse">
             <div className="flex items-center justify-center w-full h-full px-6">
-              <img className='absolute top-16 w-40 h-40 z-10 rounded-full border-[0.1em] border-[#FD602A] object-cover md:rounded-none md:border-none md:h-[23rem] md:w-[50%]
+              <img className='absolute top-16 w-40 h-40 z-10 rounded-full border-[0.1em] border-[#FD602A] object-cover md:object-fill md:rounded-none md:border-none md:h-[23rem] md:w-[50%]
               md:top-0 lg:h-[28rem] xl:h-[38rem]'
               src={img4} alt="testimonials image" />
             </div>
