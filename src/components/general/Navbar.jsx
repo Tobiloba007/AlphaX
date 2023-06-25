@@ -17,7 +17,7 @@ const Navbar = () => {
     const navigate = useNavigate();
 
   return (
-    <div className="fixed flex flex-col bg-black items-center z-50 justify-between w-full">
+    <div className="fixed flex flex-col bg-black items-center z-50 shadow-lg justify-between w-full">
         <div className="flex items-center justify-between px-6 bg-white h-[75px] w-full md:h-[80px] md:px-14 lg:px-16 
         xl:h-[110px] xl:px-24">
           <img onClick={()=>navigate('/')}
@@ -33,7 +33,8 @@ const Navbar = () => {
             className='text-[#504E4E] text-[15px] font-medium px-4 xl:text-[19px] xl:px-6 hover:text-[#FD602A]'>
                 Who we are
             </Link>
-            <Link className='text-[#504E4E] text-[15px] font-medium px-4 xl:text-[19px] xl:px-6 hover:text-[#FD602A]'>
+            <Link to='/blog'
+            className='text-[#504E4E] text-[15px] font-medium px-4 xl:text-[19px] xl:px-6 hover:text-[#FD602A]'>
                  Blog
             </Link>
             <Link className='text-[#504E4E] text-[15px] font-medium px-4 xl:text-[19px] xl:px-6 hover:text-[#FD602A]'>
@@ -73,7 +74,8 @@ const Navbar = () => {
             </Link>
             <hr className='border-[#c3c1c1] border-1 w-[80%]' />
 
-            <Link className='text-[#504E4E] pt-9 text-[14px] font-medium pb-2 md:text-[15px] md:font-medium'>
+            <Link to='/blog'
+            className='text-[#504E4E] pt-9 text-[14px] font-medium pb-2 md:text-[15px] md:font-medium'>
               Blog
             </Link>
             <hr className='border-[#c3c1c1] border-1 w-[80%]' />

@@ -2,25 +2,32 @@ import icon1 from '../../assets/icon1.png'
 import icon2 from '../../assets/icon2.png'
 import icon3 from '../../assets/icon3.png'
 import bgImg from '../../assets/bg-2.png'
+import { Link } from 'react-router-dom'
 
 
 const HomeSection2 = () => {
 
     const items = [
         {
+            id: 1,
             icon: icon1,
             title: 'Cyber Security',
-            paragraph: 'We provide comprehensive and cutting-edge solutions to safeguard your business against evolving cyber threats. we offer a range of services tailored to meet your specific security needs.'
+            paragraph: 'We provide comprehensive and cutting-edge solutions to safeguard your business against evolving cyber threats. we offer a range of services tailored to meet your specific security needs.',
+            link: '/cyber-security'
         },
         {
+            id: 2,
             icon: icon2,
             title: 'DevOps Solutions',
-            paragraph: 'We are dedicated to helping businesses achieve seamless collaboration, continuous integration, and accelerated software delivery through our comprehensive DevOps services.'
+            paragraph: 'We are dedicated to helping businesses achieve seamless collaboration, continuous integration, and accelerated software delivery through our comprehensive DevOps services.',
+            link: '/dev-ops'
         },
         {
+            id: 3,
             icon: icon3,
             title: 'Data Solutions',
-            paragraph: 'We assist you in expanding your current data systems or developing new ones while putting the cloud first. To lay the groundwork for your decision-making both now and in the future.'
+            paragraph: 'We assist you in expanding your current data systems or developing new ones while putting the cloud first. To lay the groundwork for your decision-making both now and in the future.',
+            link: '/data-solutions',
         },
     ]
 
@@ -55,7 +62,7 @@ const HomeSection2 = () => {
         <div className="flex flex-wrap items-center justify-center w-full mt-7 md:justify-between lg:mt-12 xl:mt-14">
             {items.map((item, index)=> {
                 return(
-            <div key={index} className="flex flex-col items-start justify-start drop-shadow-xl z-10 h-[13rem] w-[65%] rounded-xl
+            <Link to={item.link} key={index} className="flex flex-col items-start justify-start drop-shadow-xl z-10 h-[13rem] w-[65%] rounded-xl
                bg-white mx-3 p-5 my-2 md:mx-0 md:w-[31.5%] md:h-[14.5rem] lg:w-[30%] lg:h-[16rem] lg:rounded-2xl xl:h-[23rem] xl:w-[29%] xl:p-10
                xl:rounded-3xl hover:bg-[#ffebe4] hover:scale-[0.99] border-[0.1em] border-[#FDE6DEE5]">
                 <img className='w-9 md:w-10 lg:w-12 xl:w-16'
@@ -67,7 +74,7 @@ const HomeSection2 = () => {
                 <p className='text-[#504E4E] font-Inter text-[9px] w-full leading-2 mt-2 md:text-[10px] lg:text-[11px] xl:text-[15px] xl:mt-3'>
                   {item.paragraph}
                 </p>
-            </div>
+            </Link>
             )
             })}
 
