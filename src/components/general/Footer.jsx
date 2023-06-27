@@ -32,7 +32,7 @@ const Footer = () => {
                 <p className='text-[12px] mt-1 w-[65%] lg:text-[13px] lg:w-[60%] xl:text-[15px] xl:mt-2 xl:w-[50%]'>
                     12B, Ogunbiyi Street, Iwaya Pedro, Yaba Lagos. 
                 </p>
-                <a href='#' className='text-[12px] mt-2 lg:text-[13px] xl:text-[15px] xl:mt-4'>
+                <a href='mailto:Support@alphax.com?subject="subject text"' className='text-[12px] mt-2 lg:text-[13px] xl:text-[15px] xl:mt-4'>
                     support@alphax.com
                 </a>
             </div>
@@ -46,7 +46,8 @@ const Footer = () => {
                     <TiSocialTwitterCircular className='text-[23px] mr-2 lg:text-[25px] xl:text-[30px]' />
                     twitter
                 </a>
-                <a href='#' className='flex items-center justify-center text-[13px] my-2 md:my-1 xl:text-[15px] xl:my-2'>
+                <a href='https://www.linkedin.com/company/myalphax/' target="_blank"  rel="noreferrer" 
+                className='flex items-center justify-center text-[13px] my-2 md:my-1 xl:text-[15px] xl:my-2'>
                     <TiSocialLinkedinCircular className='text-[23px] mr-2 lg:text-[25px] xl:text-[30px]' />
                     linkedIn
                 </a>

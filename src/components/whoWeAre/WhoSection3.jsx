@@ -49,11 +49,11 @@ const WhoSection3 = () => {
 
         </div>
 
-        <div className="flex flex-col items-start justify-center w-full md:flex-row">
-            <img className="w-full h-[18rem] md:h-[20rem] lg:h-[25rem] xl:h-full"
-             src={img1} alt="" />
-            <img className="w-full h-[18rem] md:h-[20rem] lg:h-[25rem] xl:h-full"
-             src={img2} alt="" />
+        <div className="flex flex-col items-start justify-center w-full h-full md:flex-row md:h-[20rem] lg:h-[25rem] xl:h-full">
+            <img className="w-full h-[18rem] md:h-full lg:h-full xl:h-full"
+             src={img1} alt="..." />
+            <img className="w-full h-[18rem] md:h-full lg:h-full xl:h-full"
+             src={img2} alt="..." />
 
         </div>
 

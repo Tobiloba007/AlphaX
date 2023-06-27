@@ -30,7 +30,7 @@ const CyberContent = () => {
 
   return (
     <div className="flex flex-col items-center justify-center w-full pt-20 xl:pt-28">
-        <div className="flex items-center justify-center w-full">
+        <div className="relative flex items-center justify-center w-full">
             <img className='w-full h-[9rem] md:h-[11rem] lg:h-[15rem] xl:h-full' 
             src={bgImg} alt="..." />
              <p className="absolute text-[22px] text-center text-[#504E4E] md:text-[25px] lg:text-[36px] xl:text-[50px]">

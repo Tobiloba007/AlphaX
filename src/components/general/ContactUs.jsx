@@ -1,4 +1,5 @@
 import img1 from '../../assets/img-8.png'
+import { RiWhatsappFill } from 'react-icons/ri'
 
 const ContactUs = () => {
   return (
@@ -24,10 +25,11 @@ const ContactUs = () => {
                 </p>
             </div>
             <div>
-                <button className="text-center text-white bg-[#FD602A] mt-5 h-11 w-36 rounded-lg text-[11px] hover:bg-[#504E4E] md:mt-6 md:h-12 lg:w-40 lg:text-[12px] xl:mt-10
-                xl:h-16 xl:w-56 xl:text-[16px] xl:rounded-xl">
-                   Book an appointment
-                </button>
+                <a href='#' className="flex items-center justify-between text-center px-6 text-white bg-[#FD602A] mt-5 h-11 w-36 rounded-lg text-[13px] hover:bg-[#504E4E] md:mt-6 md:h-12 lg:w-40 lg:text-[15px] xl:mt-10
+                xl:h-16 xl:px-10 xl:w-56 xl:text-[18px] xl:rounded-xl">
+                  <RiWhatsappFill className='text-[25px] text-[#44C554] xl:text-[38px]' />
+                  WhatsApp
+                </a>
             </div>
         </div>
 

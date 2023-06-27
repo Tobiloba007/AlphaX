@@ -21,10 +21,12 @@ const Contact = () => {
 
         <div className='flex flex-col items-center justify-center mt-10 w-[75%] md:w-[40%] md:mt-0'>
             <div className='flex items-center justify-between w-full'>
-                <p className='text-white text-[18px] xl:text-[27px] hover:text-[#504E4E]'>
+                <a href='mailto:Support@alphax.com?subject="subject text"' className='text-white text-[18px] xl:text-[27px] hover:text-[#504E4E]'>
                    send us mail right away
-                </p>
-                <HiArrowRight className='text-white text-[25px] xl:text-[40px] hover:text-[#504E4E]' />
+                </a>
+                <a href='mailto:Support@alphax.com?subject="subject text"'>
+                  <HiArrowRight className='text-white text-[25px] xl:text-[40px] hover:text-[#504E4E]' />
+                </a>
             </div>
             <hr className='border-[1%] border-white w-full mt-3 xl:mt-6' />
 

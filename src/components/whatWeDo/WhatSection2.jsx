@@ -30,7 +30,7 @@ const WhatSection2 = () => {
       {items.map((item, index)=>{
         return(
            <div key={index} className={item.style}>
-             <div className="flex flex-col items-start justify-center w-full h-[15rem] bg-[#CCC5B2] px-6 lg:h-[19rem] lg:w-[50%] lg:px-12 xl:h-[26rem] xl:px-14">
+             <div className="flex flex-col items-start justify-center w-full h-[15rem] bg-[#CCC5B2] px-6 md:w-[50%] lg:h-[19rem] lg:w-[50%] lg:px-12 xl:h-[26rem] xl:px-14">
                <h1 className="text-[#504E4E] text-[23px] font-medium lg:text-[27px] lg:font-semibold xl:text-[38px]">
                  {item.title}
                </h1>
@@ -39,8 +39,9 @@ const WhatSection2 = () => {
                </p>
              </div>
      
-            <div className="flex items-center justify-center w-full h-[15rem] lg:h-[19rem] lg:w-[50%] xl:h-[26rem]">
-                <img className='h-[15rem] w-full lg:h-[19rem] xl:h-[26rem]' src={item.image} alt="c..." />
+            <div className="flex items-center justify-center w-full md:h-full md:w-[50%] lg:h-[19rem] lg:w-[50%] xl:h-[26rem]">
+                <img className='h-ful w-full lg:h-full xl:h-full mt-[-10px] md:mt-0 md:h-full md:w-full' src={item.image} alt="..." />
+                {/* <img className='h-[15rem] w-full lg:h-[19rem] xl:h-[26rem]' src={item.image} alt="..." /> */}
              </div>
      
            </div>

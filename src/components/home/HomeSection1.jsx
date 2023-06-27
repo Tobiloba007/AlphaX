@@ -1,12 +1,9 @@
 import bgImg from '../../assets/bg-1.png'
-// import { Swiper, SwiperSlide } from "swiper/react";
-// import "swiper/css";
-// import "swiper/css/pagination";
-// import "swiper/css/navigation";
-// import "swiper/css/effect-fade";
-// import { Autoplay, EffectFade} from "swiper";
+import '../../index.css'
 
 const HomeSection1 = () => {
+
+
   return (
     <div className='bg-cover bg-center font-Inter h-[28rem] flex flex-col items-start justify-center w-full text-white px-6 pt-28  bg-white
     md:px-14 lg:h-[35.5rem] lg:px-16 xl:h-[50rem] xl:px-24 xl:mb-10'
@@ -15,29 +12,15 @@ const HomeSection1 = () => {
       <div>
         <p className='flex flex-col items-start justify-start text-[27px] font-light leading-9 md:text-[35px] md:font-normal md:leading-[2.7rem] lg:text-[48px] lg:leading-[3.5rem]
         xl:text-[68px] xl:leading-[4.7rem]'>
-          <div>
-            <span className='flex items-center justify-center w-full text-[#FD602A]'>
-             <h1 className='text-[#ffff] pr-2'>We deliver </h1>
-                {/* <Swiper
-                  spaceBetween={0}
-                  centeredSlides={true}
-                  direction={"vertical"}
-                  effect={"fade"}
-                  loop={true}
-                  autoplay={{
-                    delay: 1750,
-                  }}
-                  modules={[Autoplay, EffectFade]}
-                  className="h-[5vh] md:h-[7vh] xl:h-[4.7vh]"
-                >
-                  <SwiperSlide className='ease-in-out'>DevOps</SwiperSlide>
-                  <SwiperSlide className='ease-in-out'>Data</SwiperSlide>
-                  <SwiperSlide className='ease-in-out'>Cyber security</SwiperSlide>
-                </Swiper> */}
-                DevOps
-            </span>
-          </div>
-          <span>solutions exactly</span>
+            <div className='flex items-start justify-start w-full text-[#FD602A]'>
+                <h1 className='text-[#ffff] pr-2 lg:pr-3 xl:pr-5'>We deliver </h1>
+                <div className='relative'>
+                   <span className='word'>DevOps</span>
+                   <span className='word'>Data</span>
+                   <h1 className='word flex items-start justify-start w-[50%] h-10'>Cyber security</h1>
+                </div>
+            </div>
+          <p>solutions exactly</p>
           as you need it
         </p>
       </div>

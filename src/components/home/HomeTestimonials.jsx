@@ -38,7 +38,7 @@ const HomeTestimonials = () => {
                  “Alpha-X, with the sub-accounts feature, makes it easy to segment our cash and in turn optimise it for targeted goals.”
               </h2>
               <p className="text-[#9B9B9B] mt-10 text-[15px] lg:mt-16 xl:text-[22px] xl:mt-24">
-                  Simi Adejumo, Hustler Capital
+                  Simi Adejumo, Hills Capital
               </p>
             </div>
 

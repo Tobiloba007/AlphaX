@@ -1,33 +1,34 @@
+import img1 from '../../assets/partner-1.png'
+import img2 from '../../assets/partner-2.png'
+import img3 from '../../assets/partner-3.png'
+import img4 from '../../assets/partner-4.png'
+import img5 from '../../assets/partner-5.png'
 import img6 from '../../assets/partner-6.png'
 import img7 from '../../assets/partner-7.png'
-import img8 from '../../assets/partner-8.png'
 import bgImg from '../../assets/bg-7.png'
 
 const Partners = () => {
     const items = [
         {
-            logo: img7,
+            logo: img1,
         },
         {
-            logo: img8,
+            logo: img2,
+        },
+        {
+            logo: img3,
+        },
+        {
+            logo: img4,
+        },
+        {
+            logo: img5,
         },
         {
             logo: img6,
         },
         {
             logo: img7,
-        },
-        {
-            logo: img8,
-        },
-        {
-            logo: img6,
-        },
-        {
-            logo: img7,
-        },
-        {
-            logo: img8,
         },
     ]
   return (

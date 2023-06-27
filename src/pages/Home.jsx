@@ -8,10 +8,22 @@ import Section1Footer from '../components/home/Section1Footer'
 import HomeFaq from '../components/home/HomeFaq'
 import Contact from '../components/general/Contact'
 import Footer from '../components/general/Footer'
+import { useEffect } from 'react'
+import { useLocation } from 'react-router-dom'
 
 const Home = () => {
+  const location = useLocation();
+  const sectionId = new URLSearchParams(location.search).get('sectionId');
+
+  useEffect(() => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  }, [sectionId]);
+
   return (
-    <div>
+    <div id="home">
         <Navbar />
         <HomeSection1 />
         <Section1Footer />

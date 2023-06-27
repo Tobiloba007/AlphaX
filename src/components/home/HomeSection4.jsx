@@ -1,6 +1,7 @@
 import icon4 from '../../assets/icon4.png'
 import icon5 from '../../assets/icon5.png'
 import icon6 from '../../assets/icon6.png'
+import icon7 from '../../assets/icon7.png'
 import bgImg from '../../assets/bg-3.png'
 
 const HomeSection4 = () => {
@@ -16,6 +17,10 @@ const HomeSection4 = () => {
     {
         icon: icon6,
         title: 'Commitment to Client success',
+   },
+    {
+        icon: icon7,
+        title: 'Excellent Services',
    },
 ]
 

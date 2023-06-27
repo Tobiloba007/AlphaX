@@ -2,10 +2,12 @@ import icon1 from '../../assets/icon1.png'
 import icon2 from '../../assets/icon2.png'
 import icon3 from '../../assets/icon3.png'
 import bgImg from '../../assets/bg-2.png'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 
 const HomeSection2 = () => {
+
+  const navigate = useNavigate();
 
     const items = [
         {
@@ -13,21 +15,21 @@ const HomeSection2 = () => {
             icon: icon1,
             title: 'Cyber Security',
             paragraph: 'We provide comprehensive and cutting-edge solutions to safeguard your business against evolving cyber threats. we offer a range of services tailored to meet your specific security needs.',
-            link: '/cyber-security'
+            link: {pathname: '/cyber-security', search: '?sectionId=cyber'},
         },
         {
             id: 2,
             icon: icon2,
             title: 'DevOps Solutions',
             paragraph: 'We are dedicated to helping businesses achieve seamless collaboration, continuous integration, and accelerated software delivery through our comprehensive DevOps services.',
-            link: '/dev-ops'
+            link: {pathname: '/dev-ops', search: '?sectionId=dev'},
         },
         {
             id: 3,
             icon: icon3,
             title: 'Data Solutions',
             paragraph: 'We assist you in expanding your current data systems or developing new ones while putting the cloud first. To lay the groundwork for your decision-making both now and in the future.',
-            link: '/data-solutions',
+            link: {pathname: '/data-solutions', search: '?sectionId=data'},
         },
     ]
 
@@ -44,7 +46,8 @@ const HomeSection2 = () => {
                  lg:text-[38px] lg:leading-[3rem] xl:text-[45px] xl:leading-[3.5rem]">
                    We provide comprehensive solutions.
                  </h1>
-                 <button className="bg-[#FD602A] text-white rounded-lg h-9 w-24 text-center text-[11px] mt-3 md:mt-6 
+                 <button onClick={()=>navigate('/what-we-do')}
+                  className="bg-[#FD602A] text-white rounded-lg h-9 w-24 text-center text-[11px] mt-3 md:mt-6 
                  lg:text-[12px] lg:h-10 lg:w-28 xl:text-[16px] xl:h-[3.5rem] xl:w-36 xl:rounded-[15px] hover:bg-[#504E4E]">
                     Learn More
                  </button>
