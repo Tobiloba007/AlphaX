@@ -1,6 +1,7 @@
-import { RiWhatsappFill } from 'react-icons/ri'
+// import { RiWhatsappFill } from 'react-icons/ri'
 import { HiArrowRight } from 'react-icons/hi'
 import bgImg from '../../assets/bg-5.png'
+import whatsapp from '../../assets/whatsapp.png'
 
 const Contact = () => {
   return (
@@ -14,7 +15,8 @@ const Contact = () => {
             </p>
             <a href='#' className='flex items-center justify-between bg-[#2D2B2C] text-[13px] text-white px-6 rounded-3xl h-11 w-36 mt-3 xl:h-14 xl:w-44 
             xl:text-[17px] xl:px-7 xl:mt-5'>
-                <RiWhatsappFill className='text-[23px] text-[#44C554] xl:text-[30px]' />
+              <img className='w-6 xl:w-7' src={whatsapp} alt="whatsapp icon" />
+                {/* <RiWhatsappFill className='text-[23px] text-[#44C554] xl:text-[30px]' /> */}
                 WhatsApp
             </a>
         </div>

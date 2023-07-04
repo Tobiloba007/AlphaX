@@ -66,7 +66,7 @@ const HomeSection2 = () => {
             {items.map((item, index)=> {
                 return(
             <Link to={item.link} key={index} className="flex flex-col items-start justify-start drop-shadow-xl z-10 h-[13rem] w-[65%] rounded-xl
-               bg-white mx-3 p-5 my-2 md:mx-0 md:w-[31.5%] md:h-[14.5rem] lg:w-[30%] lg:h-[16rem] lg:rounded-2xl xl:h-[23rem] xl:w-[29%] xl:p-10
+               bg-white mx-3 p-5 my-2 md:mx-0 md:w-[31.5%] md:h-[14.5rem] lg:w-[30%] lg:h-[16rem] lg:rounded-2xl xl:h-[25rem] xl:w-[29%] xl:p-10
                xl:rounded-3xl hover:bg-[#ffebe4] hover:scale-[0.99] border-[0.1em] border-[#FDE6DEE5]">
                 <img className='w-9 md:w-10 lg:w-12 xl:w-16'
                 src={item.icon} alt="" />
