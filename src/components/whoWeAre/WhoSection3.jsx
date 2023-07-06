@@ -24,10 +24,12 @@ const WhoSection3 = () => {
             <p className="text-center text-[15px] md:w-[80%] md:text-[18px] lg:text-[23px] lg:w-[65%] lg:leading-8 xl:w-[60%] xl:text-[28px] xl:leading-10">
                because we genuinely prioritize building strong relationships, we have become the preferred choice as a consulting company.
             </p>
+            <a href="https://form.jotform.com/231835908138563" target="_blank" rel="noopener noreferrer">
             <button className="bg-[#FD602A] h-9 w-32 rounded-lg text-center text-[10px] mt-5 md:h-10 md:w-36 lg:h-11 lg:rounded-xl lg:mt-8 xl:mt-10 xl:text-[13px]
             xl:h-12 xl:w-44">
                Lets work together
             </button>
+            </a>
         </div>
 
         <div className="flex flex-col items-center just-center w-full py-8 px-6 md:py-12 md:px-14 lg:px-16 xl:px-24 xl:py-20">

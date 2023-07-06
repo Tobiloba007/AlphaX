@@ -33,11 +33,13 @@ const HomeSection1 = () => {
       </div>
 
       <div>
+        <a href="https://form.jotform.com/231835908138563" target="_blank" rel="noopener noreferrer">
         <button className='text-[10px] bg-[#FD602A] h-9 w-28 mt-8 rounded-lg text-center md:w-32 md:text-[11px] lg:h-11 
         lg:w-40 lg:rounded-[10px] lg:text-[12px] lg:mt-12 xl:mt-26 xl:text-[16px] xl:h-[4rem] xl:w-56 xl:rounded-[17px]
         hover:bg-[#504E4E]'>
            Lets work together
         </button>
+        </a>
       </div>
 
     </div>

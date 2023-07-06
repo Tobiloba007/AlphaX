@@ -10,10 +10,12 @@ const GetStarted = () => {
            Get Started <br /> with
            <span className="font-bold"> Alpha-X</span> 
         </p>
+        <a href="https://form.jotform.com/231835908138563" target="_blank" rel="noopener noreferrer">
         <button className="text-white bg-[#FD602A] h-9 w-36 mt-4 rounded-lg text-center text-[10px] hover:bg-[#504E4E] md:mr-20 md:text-[11px] md:h-10 md:w-32
         lg:w-40 lg:mr-28 lg:h-11 xl:text-[15px] xl:rounded-2xl xl:h-16 xl:w-56 xl:mr-36">
             Lets work together
         </button>
+        </a>
     </div>
   )
 }
