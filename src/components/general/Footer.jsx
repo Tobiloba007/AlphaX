@@ -59,7 +59,8 @@ const Footer = () => {
         lg:mt-16 xl:mt-20 xl:text-[14px]">
             <AiOutlineCopyrightCircle className='mr-1 text-[13px] lg:text-[15px] xl:text-[17px]' />
             2023 AlphaX is powered by 
-            <a href='#' className='text-[#D15635] pl-1 md:font-medium'>
+            <a href='https://www.linkedin.com/in/olajuwon-olalekan/' target="_blank"  rel="noreferrer"
+             className='text-[#D15635] pl-1 md:font-medium'>
                 Lexcr8t
             </a>
         </div>
