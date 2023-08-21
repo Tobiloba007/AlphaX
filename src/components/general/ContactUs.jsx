@@ -25,7 +25,7 @@ const ContactUs = () => {
                 </p>
             </div>
             <div>
-                <a href='#' className="flex items-center justify-between text-center px-6 text-white bg-[#FD602A] mt-5 h-11 w-36 rounded-lg text-[13px] hover:bg-[#504E4E] md:mt-6 md:h-12 lg:w-40 lg:text-[15px] xl:mt-10
+                <a href='https://wa.me/message/4ZFY27DPVGUWJ1' target="_blank"  rel="noreferrer" className="flex items-center justify-between text-center px-6 text-white bg-[#FD602A] mt-5 h-11 w-36 rounded-lg text-[13px] hover:bg-[#504E4E] md:mt-6 md:h-12 lg:w-40 lg:text-[15px] xl:mt-10
                 xl:h-16 xl:px-10 xl:w-56 xl:text-[18px] xl:rounded-xl">
                  <img className='w-6 xl:w-9' src={whatsapp} alt="whatsapp icon" />
                   WhatsApp

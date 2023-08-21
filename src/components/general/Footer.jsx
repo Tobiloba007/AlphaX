@@ -38,11 +38,11 @@ const Footer = () => {
             </div>
 
             <div className="flex flex-col items-start justify-start w-full mt-6 text-[#504E4E] md:mt-0 md:w-[20%] md:justify-end">
-                <a href='#' className='flex items-center justify-center text-[13px] my-2 md:my-0 xl:text-[15px] xl:mb-2'>
+                <a href='#' target="_blank"  rel="noreferrer" className='flex items-center justify-center text-[13px] my-2 md:my-0 xl:text-[15px] xl:mb-2'>
                     <TiSocialFacebookCircular className='text-[23px] mr-2 lg:text-[25px] xl:text-[30px]' />
                     facebook
                 </a>
-                <a href='#' className='flex items-center justify-center text-[13px] my-2 md:my-1 xl:text-[15px] xl:my-2'>
+                <a href='#' target="_blank"  rel="noreferrer" className='flex items-center justify-center text-[13px] my-2 md:my-1 xl:text-[15px] xl:my-2'>
                     <TiSocialTwitterCircular className='text-[23px] mr-2 lg:text-[25px] xl:text-[30px]' />
                     twitter
                 </a>
