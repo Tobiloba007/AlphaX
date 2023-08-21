@@ -1,4 +1,4 @@
-import bgImg from '../../assets/bg-1.png'
+import bgImg from '../../assets/bg-1.svg'
 import '../../index.css'
 
 const HomeSection1 = () => {
